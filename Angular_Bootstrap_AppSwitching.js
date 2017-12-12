@@ -17,7 +17,6 @@ function initAngular(app_name){
         rootscope.$destroy();
     }
 
-    console.log(dom_el);
     angular.element(function() {
         angular.bootstrap(dom_el, [app_name]);
     });
